@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#09080e">
+    <meta
+      name="description"
+      content="Meet Sam Rodil — a creative student, digital artist, and curious maker."
+    >
+    <title>Sam Rodil — Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-glow page-glow--one" aria-hidden="true"></div>
+    <div class="page-glow page-glow--two" aria-hidden="true"></div>
+    <div class="page-glow page-glow--band" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Sam Rodil home">SR<span>.</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#skills">Skills</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+      <a class="header-link" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> A little bit of everything</p>
+          <h1 id="hero-title">SAM<br><span>RODIL</span></h1>
+          <p class="hero-intro">Curious mind. Creative hands.<br>Always making something new.</p>
+          <a class="text-link" href="#about">Get to know me <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-label="Portrait illustration of Sam at a computer">
+          <img src="photos/sam%20rodil.png" alt="Illustration of a creative at a computer">
+          <span class="art-caption"><span aria-hidden="true">✳</span> MAKER IN PROGRESS</span>
+        </div>
+        <span class="hero-index" aria-hidden="true">01 / 05</span>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 — A quick introduction</p>
+          <h2 id="about-title">A little <span>about me.</span></h2>
+        </div>
+        <div class="about-card">
+          <div class="about-photo">
+            <img src="photos/about.jpg" alt="Sam Rodil">
+            <span class="photo-label">THAT'S ME <span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="about-copy">
+            <h3 class="about-role">Digital Artist</h3>
+            <p class="about-description">
+              A creative with professional experience in the art industry,
+              versed in animation, illustration, and editing software.
+            </p>
+            <dl class="about-details">
+              <div><dt>Name:</dt><dd>Sam Rodil</dd></div>
+              <div><dt>Birthday:</dt><dd>August 21, 1997</dd></div>
+              <div><dt>Degree:</dt><dd>Bachelor</dd></div>
+              <div><dt>Experience:</dt><dd>7 years</dd></div>
+              <div><dt>Phone:</dt><dd><a href="tel:+639272357703">+639272357703</a></dd></div>
+              <div><dt>Email:</dt><dd><a href="mailto:rodilsamuel@gmail.com">rodilsamuel@gmail.com</a></dd></div>
+            </dl>
+            <div class="about-actions">
+              <a class="button button--primary" href="#contact">Hire Me <span aria-hidden="true">↗</span></a>
+              <button class="button button--quiet" id="card-button" type="button">
+                Here’s my card <span aria-hidden="true">↓</span>
+              </button>
+            </div>
+            <p class="card-status" id="card-status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="hobbies section-shell" id="hobbies" aria-labelledby="hobbies-title">
+        <div class="section-heading section-heading--row">
+          <div>
+            <p class="eyebrow">02 — When I’m off the clock</p>
+            <h2 id="hobbies-title">Things I <span>love doing.</span></h2>
+          </div>
+          <p class="section-note">A few favorite ways to spend a free afternoon.</p>
+        </div>
+        <div class="hobby-grid">
+          <article class="hobby-card">
+            <div class="hobby-image"><img src="photos/drawing.jpg" alt="Digital illustration artwork"></div>
+            <div class="hobby-details"><span class="card-number">01</span><h3>Drawing</h3><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <p>Sketching characters and bringing little ideas to life.</p>
+          </article>
+          <article class="hobby-card">
+            <div class="hobby-image"><img src="photos/editing.jpg" alt="Creative editing and design tools"></div>
+            <div class="hobby-details"><span class="card-number">02</span><h3>Editing</h3><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <p>Mixing images, sound, and color to set a mood.</p>
+          </article>
+          <article class="hobby-card">
+            <div class="hobby-image"><img src="photos/gaming.jpg" alt="A favorite gaming character"></div>
+            <div class="hobby-details"><span class="card-number">03</span><h3>Gaming</h3><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <p>Exploring new worlds, one quest at a time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section-shell" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">03 — What I bring to the table</p>
+          <h2 id="skills-title">A mix of <span>hard &amp; soft skills.</span></h2>
+        </div>
+        <div class="skill-panels">
+          <article class="skill-panel">
+            <div class="skill-panel-title"><span class="skill-icon" aria-hidden="true">⌘</span><h3>Hard skills</h3></div>
+            <p>Tools and creative techniques I’m building confidence with.</p>
+            <ul class="skill-list">
+              <li><span>Digital illustration</span><span class="skill-level">01</span></li>
+              <li><span>Photo &amp; video editing</span><span class="skill-level">02</span></li>
+              <li><span>Visual storytelling</span><span class="skill-level">03</span></li>
+              <li><span>Creative software</span><span class="skill-level">04</span></li>
+            </ul>
+          </article>
+          <article class="skill-panel skill-panel--accent">
+            <div class="skill-panel-title"><span class="skill-icon" aria-hidden="true">✳</span><h3>Soft skills</h3></div>
+            <p>Good work also starts with the way we work together.</p>
+            <ul class="skill-list">
+              <li><span>Curiosity &amp; eagerness to learn</span><span class="skill-level">01</span></li>
+              <li><span>Creative problem-solving</span><span class="skill-level">02</span></li>
+              <li><span>Patience &amp; attention to detail</span><span class="skill-level">03</span></li>
+              <li><span>Open-minded collaboration</span><span class="skill-level">04</span></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery section-shell" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading section-heading--row">
+          <div>
+            <p class="eyebrow">04 — A peek at my inspiration</p>
+            <h2 id="gallery-title">The art <span>corner.</span></h2>
+          </div>
+          <p class="section-note">A small collection of work and worlds I love.</p>
+        </div>
+        <figure class="gallery-frame">
+          <img src="photos/gallery.jpg" alt="A colorful collection of digital character illustrations">
+          <figcaption><span>CHARACTERS, COLORS &amp; STORIES</span><span>MADE WITH CURIOSITY <span aria-hidden="true">✳</span></span></figcaption>
+        </figure>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow">05 — Your turn</p>
+          <h2 id="contact-title">Got a thought?<br><span>Send it my way.</span></h2>
+          <p>Have an idea, a kind word, or a suggestion? I’d love to hear it.</p>
+          <span class="contact-spark" aria-hidden="true">✳</span>
+        </div>
+        <form class="feedback-form" id="feedback-form">
+          <label for="feedback">Your feedback</label>
+          <textarea
+            id="feedback"
+            name="feedback"
+            rows="5"
+            minlength="3"
+            maxlength="600"
+            placeholder="Write a little something..."
+            required
+          ></textarea>
+          <div class="form-footer">
+            <span class="character-count" id="character-count">0 / 600</span>
+            <button class="button button--primary send-button" type="submit">Send! <span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+          <p class="form-note">Your note stays right here in this demo—no backend or email is connected.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#home">SR<span>.</span></a>
+      <p>Made with curiosity by Sam Rodil <span aria-hidden="true">✳</span></p>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
